@@ -1,7 +1,10 @@
+//Coming Soon Page
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flick_video_player/flick_video_player.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 class movie extends StatefulWidget {
   const movie({super.key});
 
@@ -116,11 +119,13 @@ class _movieState extends State<movie> {
                 child: Align(
                     alignment: Alignment.topLeft,
                     child: Text("Coming Soon",
-                      style: TextStyle(
-                        fontWeight: FontWeight.w500,
-                        fontSize: 20,
-                        color: Colors.white,
-                      ),
+                      style: GoogleFonts.labrada(
+                        textStyle: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          fontSize: 30,
+                          color: Colors.white,
+                        ),
+                      )
                     )),
               ),
               SizedBox(height: 10,),
@@ -162,18 +167,22 @@ class _movieState extends State<movie> {
 
                       ),
                       Text("2018",
-                        style: TextStyle(
+                        style:
+                        TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 20,
                           color: Colors.white,
                         ),
                       ),
                       Text("Coming on November 04",
-                        style: TextStyle(
-                          fontWeight: FontWeight.w500,
-                          fontSize: 16,
-                          color: Colors.white,
-                        ),
+                        style: GoogleFonts.lato(
+                          textStyle: TextStyle(
+                            fontWeight: FontWeight.w500,
+                            fontSize: 18,
+                            color: Colors.white,
+                          ),
+                        )
+
                       ),
                       Container(
                         width: 300,
@@ -181,37 +190,41 @@ class _movieState extends State<movie> {
                           softWrap: true, // Enable text wrapping
                           //overflow: TextOverflow.ellipsis, // Use ellipsis if text overflows
                           textAlign: TextAlign.left,
-                          style: TextStyle(
+                          style: GoogleFonts.alexandria(
                             fontWeight: FontWeight.w500,
                             fontSize: 16,
                             color: Colors.white70,
-                          ),
+                          )
+
                         ),
                       ),
                       Row(
                         children: [
                           Text("Thriller",
-                            style: TextStyle(
+                            style:
+                            GoogleFonts.agdasima(
                               fontWeight: FontWeight.w500,
-                              fontSize: 16,
+                              fontSize: 18,
                               color: Colors.white,
-                            ),
+                            )
                           ),
                           SizedBox(width: 10,),
                           Text("Suspense",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
+                              style:
+                              GoogleFonts.agdasima(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 18,
+                                color: Colors.white,
+                              )
                           ),
                           SizedBox(width: 10,),
                           Text("Drama",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
+                              style:
+                              GoogleFonts.agdasima(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 18,
+                                color: Colors.white,
+                              )
                           ),
                           SizedBox(width: 10,),
 
@@ -229,7 +242,8 @@ class _movieState extends State<movie> {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text("Nov 14",
-                      style: TextStyle(
+                      style:
+                      TextStyle(
                         fontWeight: FontWeight.w500,
                         fontSize: 20,
                         color: Colors.white,
@@ -264,11 +278,13 @@ class _movieState extends State<movie> {
                         ),
                       ),
                       Text("Coming on November 14",
-                        style: TextStyle(
+                        style:
+                        GoogleFonts.lato(
                           fontWeight: FontWeight.w500,
-                          fontSize: 16,
+                          fontSize: 18,
                           color: Colors.white,
-                        ),
+                        )
+
                       ),
                       Container(
                         width: 300,
@@ -276,37 +292,42 @@ class _movieState extends State<movie> {
                           softWrap: true, // Enable text wrapping
                           //overflow: TextOverflow.ellipsis, // Use ellipsis if text overflows
                           textAlign: TextAlign.left,
-                          style: TextStyle(
+                          style:
+                          GoogleFonts.alexandria(
                             fontWeight: FontWeight.w500,
                             fontSize: 16,
                             color: Colors.white70,
-                          ),
+                          )
+
                         ),
                       ),
                       Row(
                         children: [
                           Text("Thriller",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
+                              style:
+                              GoogleFonts.agdasima(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 18,
+                                color: Colors.white,
+                              )
                           ),
                           SizedBox(width: 10,),
                           Text("Suspense",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
+                              style:
+                              GoogleFonts.agdasima(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 18,
+                                color: Colors.white,
+                              )
                           ),
                           SizedBox(width: 10,),
                           Text("Drama",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
+                              style:
+                              GoogleFonts.agdasima(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 18,
+                                color: Colors.white,
+                              )
                           ),
                           SizedBox(width: 10,),
 
@@ -359,11 +380,11 @@ class _movieState extends State<movie> {
                         ),
                       ),
                       Text("Coming on November 24",
-                        style: TextStyle(
+                        style: GoogleFonts.lato(
                           fontWeight: FontWeight.w500,
-                          fontSize: 16,
+                          fontSize: 18,
                           color: Colors.white,
-                        ),
+                        )
                       ),
                       Container(
                         width: 300,
@@ -371,37 +392,41 @@ class _movieState extends State<movie> {
                           softWrap: true, // Enable text wrapping
                           //overflow: TextOverflow.ellipsis, // Use ellipsis if text overflows
                           textAlign: TextAlign.left,
-                          style: TextStyle(
+                          style: GoogleFonts.alexandria(
                             fontWeight: FontWeight.w500,
                             fontSize: 16,
                             color: Colors.white70,
-                          ),
+                          )
+
                         ),
                       ),
                       Row(
                         children: [
                           Text("Thriller",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
+                              style:
+                              GoogleFonts.agdasima(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 18,
+                                color: Colors.white,
+                              )
                           ),
                           SizedBox(width: 10,),
                           Text("Suspense",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
+                              style:
+                              GoogleFonts.agdasima(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 18,
+                                color: Colors.white,
+                              )
                           ),
                           SizedBox(width: 10,),
                           Text("Drama",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
+                              style:
+                              GoogleFonts.agdasima(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 18,
+                                color: Colors.white,
+                              )
                           ),
                           SizedBox(width: 10,),
 
@@ -444,6 +469,9 @@ class _movieState extends State<movie> {
   void dispose() {
     super.dispose();
     _controllertrailer.dispose();
+    _controllertrailer1.dispose();
+    _controllertrailer2.dispose();
+
    // Dispose of the video controller to release resources.
   }
 }

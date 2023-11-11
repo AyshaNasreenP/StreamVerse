@@ -115,24 +115,24 @@ class _profileState extends State<profile> {
               child: Column(
 
                 children: [
-
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(20, 8, 20, 0),
-                    child: ElevatedButton(
-                        autofocus: true,
-                        style: ElevatedButton.styleFrom(
-                          primary: Colors.white70,
-                          minimumSize: Size(480, 40),
-                          //shadowColor: Colors.blueAccent
-                        ),
-                        onPressed:(){}, child: Padding(
-                      padding: const EdgeInsets.fromLTRB(10, 2, 10, 2),
-                      child: Text("Edit Profile", style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 18,
-                      ),),
-                    )),
-                  ),
+///edit profile button
+                  // Padding(
+                  //   padding: const EdgeInsets.fromLTRB(20, 8, 20, 0),
+                  //   child: ElevatedButton(
+                  //       autofocus: true,
+                  //       style: ElevatedButton.styleFrom(
+                  //         primary: Colors.white70,
+                  //         minimumSize: Size(480, 40),
+                  //         //shadowColor: Colors.blueAccent
+                  //       ),
+                  //       onPressed:(){}, child: Padding(
+                  //     padding: const EdgeInsets.fromLTRB(10, 2, 10, 2),
+                  //     child: Text("Edit Profile", style: TextStyle(
+                  //       color: Colors.black,
+                  //       fontSize: 18,
+                  //     ),),
+                  //   )),
+                  // ),
                   SizedBox(height: 8,),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
